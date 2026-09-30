@@ -1,0 +1,9 @@
+[
+  "tests/test_estimate.py::test_cli_runs",
+  "tests/test_estimate.py::test_load_inventory_yaml",
+  "tests/test_estimate.py::test_monthly_cost_math",
+  "tests/test_estimate.py::test_parse_cpu",
+  "tests/test_estimate.py::test_parse_memory",
+  "tests/test_estimate.py::test_summarize_groups_by_namespace",
+  "tests/test_estimate.py::test_zero_requests_cost_nothing"
+]

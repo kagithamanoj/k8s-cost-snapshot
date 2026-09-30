@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "k8s-cost-snapshot"
+version = "0.1.0"
+description = "Estimate monthly Kubernetes cost per namespace from resource requests."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["pyyaml"]
+authors = [{ name = "Manoj Kumar Kagitha" }]
+
+[project.scripts]
+k8s-cost-snapshot = "costsnap.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["costsnap*"]
